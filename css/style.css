@@ -1,0 +1,554 @@
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+/*============================================
+===============header navbar==================
+============================================*/
+.container {
+    max-width: 1155px;
+}
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+header::before {
+    height: 300px;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+0,000000+100&0.65+0,0+100 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+98,000000+99,000000+100,000000+100,000000+100,000000+100,000000+100,000000+100,000000+101,000000+101,000000+102,000000+103&0.65+1,0.65+1,0.65+1,0+98,0+99,0+100,0+100,0+100,0+100,0+100 */
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 1%, rgba(0,0,0,0) 98%, rgba(0,0,0,0) 99%, rgba(0,0,0,0) 100%, rgba(0,0,0,0) 101%, rgba(0,0,0,0) 102%, rgba(0,0,0,0) 103%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 1%,rgba(0,0,0,0) 98%,rgba(0,0,0,0) 99%,rgba(0,0,0,0) 100%,rgba(0,0,0,0) 101%,rgba(0,0,0,0) 102%,rgba(0,0,0,0) 103%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 1%,rgba(0,0,0,0) 98%,rgba(0,0,0,0) 99%,rgba(0,0,0,0) 100%,rgba(0,0,0,0) 101%,rgba(0,0,0,0) 102%,rgba(0,0,0,0) 103%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.logo-text {
+    border-left: 2px solid rgba(255, 255, 255, .2);
+    margin-left: 1.5em;
+}
+.logo-text img {
+    display: inline-block;
+    margin-left: 1.5em;
+}
+.logo-text p {
+    display: inline-block;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: "Montserrat";
+}
+.nav-link {
+    margin-left: 25px;
+    font-size: 14px;
+    color: #bec8c8;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: #fff;
+}
+.active a{
+    color: #f0f0f0;
+    font-weight: bold;
+}
+.btn-general {
+    color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0.34);
+    border-radius: 2px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn-general:hover {
+    background-color: #6fb048;
+    color: #fff;
+}
+.navbar {
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    padding: 32px 0px;
+}
+.navbar-brand {
+    padding-top: 0;
+    height: 37px;
+    margin-right: 0;
+}
+
+
+
+
+/*============================================
+===============    home     ==================
+============================================*/
+#home {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#home::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(45, 110, 112, .9);
+}
+.home-text {
+    font-family: 'Roboto', sans-serif;
+}
+.home-text h1 {
+    font-size: 38px;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 0;
+}
+.home-text p {
+    font-size: 16px;
+    color: #fff;
+    margin: 20px 0;
+}
+.btn-home {
+    color: #fff;
+    background-color: #6fb048;
+    padding: 10px 45px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    border-radius: 2px;
+}
+.btn-home:hover {
+    background-color: rgba(255, 255, 255, 0.34);
+    color: #f0f0f0;
+}
+
+
+
+
+/*============================================
+===============    FEATURES  =================
+============================================*/
+#features {
+    padding: 70px 0;
+    font-family: "Roboto";
+}
+#features p {
+    color: #83a7a5;
+}
+.features-title h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #0f5f5c;
+}
+.features-title::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background: #6fb048;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.fetures-para p{
+    margin-top: 45px;
+}
+.features-icon {
+    margin: 50px 0;
+}
+.features-icon h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f5f5c;
+    margin: 20px 0;
+}
+.featires-icon p {
+    font-size: 14px;
+}
+
+.second_feature img {
+    display: inline-block;
+}
+.second_feature h1 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f5f5c;
+    margin: 20px 0;
+    margin-left: 15px;
+}
+.shape_img {
+    margin-bottom: 50px;
+}
+
+
+
+
+/*============================================
+===============    Template  =================
+============================================*/
+#template {
+    padding: 90px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.template-para p {
+    color: #83a7a5;
+    margin-top: 45px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+.template-text {
+    margin: 140px 0 100px 0;
+}
+.template-text p {
+    color: #83a7a5;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+.template-text h2 {
+    color: #0f5f5c;
+}
+
+
+
+
+
+/*============================================
+===============  CUSTOMER  =================
+============================================*/
+#customer {
+    padding: 100px 0;
+}
+.customer-text p {
+    font-size: 24px;
+    font-family: "Times New Roman";
+    color: #83a7a5;
+}
+.customer-designation p {
+    font-size: 14px;
+    font-family: "Times New Roman";
+    margin-bottom: 0;
+    color: #83a7a5;
+}
+.customer-img img {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+}
+
+
+
+/*============================================
+===============  MAP  =================
+============================================*/
+.map-img img {
+    float: right;
+    margin: 60px 0;
+}
+.map-text {
+    margin-left: 150px;
+}
+.map-text p {
+    font-size: 14px;
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+.map-text h2 {
+    font-size: 34px;
+    color: #0f5f5c;
+    font-family: "Roboto";
+}
+
+
+/*============================================
+===============  PRICING  =================
+============================================*/
+#pricing {
+    padding: 70px 0;
+}
+.pricing-para p {
+    color: #83a7a5;
+    margin-top: 45px;
+    font-weight: 500;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+#pricing-box {
+    margin: 25px 0;
+    border: 1px solid #c1d3d2;
+    padding: 25px 0;
+}
+.no-border {
+    border-left: none!important;
+    border-right: none!important;
+}
+.pricing-text h4 {
+    font-family: "Roboto";
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6fb048;
+}
+.price-tag {
+    color: #0f5f5c;
+    padding: 10px 0;
+}
+.price-tag h1 {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.price-tag p {
+    margin-top: -16px;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.pricing-text-list p {
+    color: #8badab;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn-pricing {
+    background-color: #83a7a5;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    padding: 5px 15px;
+    margin: 15px 0;
+    border-radius: 2px;
+    transition: 1s;
+}
+.btn-pricing:hover {
+    background-color: #6fb048;
+    color: #fff;
+    transform: scale(1.2);
+}
+.btn-green {
+    background-color: #6fb048;
+    color: #fff;
+}
+.btn-green:hover {
+    background-color: #83a7a5;
+    color: #fff;
+}
+
+
+/*============================================
+===============  PLAN  =================
+============================================*/
+#plan {
+    padding: 30px 0 50px 0;
+}
+.plan-text {
+    margin: 50px 0;
+    color: #8badab;
+}
+#plan-title {
+    font-size: 25px!important;
+    font-weight: 400!important;
+}
+.plan-img {
+    margin: 10px 0;
+}
+#green {
+    color: #6fb048;
+}
+.plan-para {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #8badab;
+}
+.plan-support {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #0f5f5c;
+}
+
+
+/*============================================
+===============  Download  =================
+============================================*/
+#download {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+.download-text h1 {
+    font-size: 28px;
+    font-weight: 500px;
+    color: #0f5f5c;
+    font-family: "Roboto";
+}
+.download-text p {
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+.btn-download {
+    background-color: #6fb048;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    transition: 1s;
+}
+.btn-download:hover {
+    background-color: #83a7a5;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+
+/*============================================
+===============  Footer  =================
+============================================*/
+#footer1 {
+    padding: 50px 0;
+}
+.footer1-text h1 {
+    font-family: "ProximaNova";
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0f5f5c;
+}
+.footer1-text p {
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+.footer1-text p span {
+    color: #0f5f5c;
+    font-weight: 700;
+}
+.footer1-text-same h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f5f5c;
+    margin-bottom: 15px;
+}
+.footer1-text-same ul {
+    padding: 0;
+}
+.footer1-text-same ul li a {
+    text-decoration: none;
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+.footer1-text-same ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer1-text-same p {
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+.footer-input {
+    width: 100%;
+    background: #eef1ec;
+    border: none;
+    padding: 5px 10px;
+}
+.footer-input input {
+    width: 90%;
+    background: #eef1ec;
+    border: none;
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+::placeholder {
+    color: #83a7a5;
+    font-family: "Roboto";
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+#foooter2 .container {
+    padding: 30px 0;
+    border-top: 1px solid #eef1ec;
+}
+#foooter2 i {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+#foooter2 p {
+    margin: 0;
+    padding: 0;
+    color: #83a7a5;
+    font-family: "Roboto";
+}
+#foooter2 #id1 {
+    background-color: #55acee;
+}
+#foooter2 #id2 {
+    background-color: #3b5998;
+}
+#foooter2 #id3 {
+    background-color: #3f729b;
+}
+#foooter2 #id4 {
+    background-color: #ea4c89;
+}
+#foooter2 #id5 {
+    background-color: #333333;
+}
+
+.fab, .fas {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/*============================================
+===============  MEDIA QUERY  =================
+============================================*/
+@media (max-width: 992px) {
+    #footer1 .col-xs {
+        text-align: center;
+    }
+    #foooter2 .col-xs {
+        text-align: center!important;
+    }
+    #download .col-xs {
+        text-align: center!important;
+    }
+    #download .btn-download {
+        font-size: 14px;
+    }
+    #customer .customer-img {
+        text-align: center!important;
+        margin-top: 30px;
+    }
+    #customer .customer-img img{
+        width: 300px;
+        height: 300px;
+    }
+    #map .map-text {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    #template .features-title::before {
+        margin-top: 95px;
+    }
+}
